@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EA44EFA14CBC62A00969224 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EA44EF914CBC62A00969224 /* main.cpp */; };
+		8EA44EFC14CBC62A00969224 /* Delayed_Keychain.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8EA44EFB14CBC62A00969224 /* Delayed_Keychain.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8EA44EF314CBC62900969224 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8EA44EFC14CBC62A00969224 /* Delayed_Keychain.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8EA44EF514CBC62A00969224 /* Delayed Keychain */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Delayed Keychain"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA44EF914CBC62A00969224 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8EA44EFB14CBC62A00969224 /* Delayed_Keychain.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Delayed_Keychain.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EA44EF214CBC62900969224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EA44EEA14CBC62700969224 = {
+			isa = PBXGroup;
+			children = (
+				8EA44EF814CBC62A00969224 /* Delayed Keychain */,
+				8EA44EF614CBC62A00969224 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EA44EF614CBC62A00969224 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EA44EF514CBC62A00969224 /* Delayed Keychain */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EA44EF814CBC62A00969224 /* Delayed Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				8EA44EF914CBC62A00969224 /* main.cpp */,
+				8EA44EFB14CBC62A00969224 /* Delayed_Keychain.1 */,
+			);
+			path = "Delayed Keychain";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EA44EF414CBC62900969224 /* Delayed Keychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EA44EFF14CBC62A00969224 /* Build configuration list for PBXNativeTarget "Delayed Keychain" */;
+			buildPhases = (
+				8EA44EF114CBC62900969224 /* Sources */,
+				8EA44EF214CBC62900969224 /* Frameworks */,
+				8EA44EF314CBC62900969224 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Delayed Keychain";
+			productName = "Delayed Keychain";
+			productReference = 8EA44EF514CBC62A00969224 /* Delayed Keychain */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EA44EEC14CBC62700969224 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = accenture;
+			};
+			buildConfigurationList = 8EA44EEF14CBC62700969224 /* Build configuration list for PBXProject "Delayed Keychain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8EA44EEA14CBC62700969224;
+			productRefGroup = 8EA44EF614CBC62A00969224 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EA44EF414CBC62900969224 /* Delayed Keychain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EA44EF114CBC62900969224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA44EFA14CBC62A00969224 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8EA44EFD14CBC62A00969224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8EA44EFE14CBC62A00969224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8EA44F0014CBC62A00969224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8EA44F0114CBC62A00969224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EA44EEF14CBC62700969224 /* Build configuration list for PBXProject "Delayed Keychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA44EFD14CBC62A00969224 /* Debug */,
+				8EA44EFE14CBC62A00969224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EA44EFF14CBC62A00969224 /* Build configuration list for PBXNativeTarget "Delayed Keychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA44F0014CBC62A00969224 /* Debug */,
+				8EA44F0114CBC62A00969224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EA44EEC14CBC62700969224 /* Project object */;
+}
